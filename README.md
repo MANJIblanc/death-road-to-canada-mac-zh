@@ -4,7 +4,7 @@
 
 本项目只迁移原补丁已有的译文，没有自行续译新版内容。**这不是完整汉化，也不是游戏本体**。原补丁缺少的新版文字仍保留英文，使用者需要自行拥有对应版本的 Steam 游戏。
 
-[下载安装包](https://github.com/MANJIblanc/death-road-to-canada-mac-zh/releases/latest) · [详细使用说明](patch/先读我.md) · [原作者与转载说明](patch/来源与转载说明.md) · [未覆盖文本](patch/排查资料/未覆盖文本说明.md)
+[下载安装包](https://github.com/MANJIblanc/death-road-to-canada-mac-zh/releases) · [详细使用说明](patch/先读我.md) · [原作者与转载说明](patch/来源与转载说明.md) · [未覆盖文本](patch/排查资料/未覆盖文本说明.md)
 
 ## 可以做什么
 
@@ -30,7 +30,7 @@
 
 ## 安装和还原
 
-1. 到 [Releases](https://github.com/MANJIblanc/death-road-to-canada-mac-zh/releases/latest) 下载 `DR2C-Mac-Hans-build24936165-20261015.zip`，解压整个文件夹。
+1. 到 [Releases](https://github.com/MANJIblanc/death-road-to-canada-mac-zh/releases) 下载 `DR2C-Mac-Hans-build24936165-20261015.zip`，解压整个文件夹。
 2. 完全退出游戏，双击 **安装汉化.command**。
 3. 工具会自动寻找 Steam 游戏。如果找到多个，输入对应序号；没有找到时，把 **DR2C.app** 拖入窗口并按回车。
 4. 看到“汉化已安装”后，从 Steam 正常启动游戏。

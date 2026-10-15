@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-15",
+  "package_id": "dr2c-mac-hans-20261015.1",
+  "payload_sha256": "518cb8604e49fd33b6816b6aa85360d60e4d74049d82638e774a052aa4ecd7d0",
+  "checks": [
+    "package integrity and both payload assets",
+    "installer arm64 and x86_64 execution",
+    "unsupported executable rejected without writes",
+    "other script modifications rejected without writes",
+    "235-file installation, full original backup, saves and cloud index backup",
+    "repeat installation is idempotent and status verifies every file",
+    "damaged backup rejected before restoration changes any file",
+    "external post-install changes rejected without overwriting them",
+    "restoration survives a moved package and exactly restores original tree",
+    "interrupted installation recovers mixed original and patched files",
+    "failure after actual game write automatically rolls back exactly",
+    "corrupted font and delta manifest rejected without game changes",
+    "running game guard refuses writes",
+    "external Steam library and custom install directory discovery",
+    "fresh recipient game reconstructs byte-identical reviewed payload"
+  ],
+  "synthetic_saves_unchanged": true,
+  "private_game_in_archive": false,
+  "ui_test_pending": false,
+  "ui_checks": {
+    "actual_install_from_clean_game": "PASS: all 235 installed files matched reviewed payload",
+    "localized_menu": "PASS: actual Chinese main menu and game buttons",
+    "random_role_labels": "PASS: Felisa 超级力量/暴脾气 -> Troy 枪支收藏家/勇猛 -> Georgeanna 大块头/烦人; names and labels update together",
+    "normal_opening_and_loot": "PASS: complete original-patch Chinese story; new unmatched hint remains English; food +8 Chinese with original icon and number",
+    "audio": "PASS: original MP3 decoding/play/stop and effect channel; no manual listening",
+    "restoration_launch": "PASS: restored app launches original English menu; only menu inspected",
+    "formal_saves": "PASS: all 9 pre-existing formal save and settings files remain byte-identical at completion",
+    "font_and_runtime": "PASS: hooks=OK, dictionary=13049, atlas upload GL error 0; no Forth error file",
+    "limitations": "macOS 26.6.2 Apple Silicon + Rosetta tested; Intel hardware and older macOS not tested; not every random event exercised"
+  },
+  "source_checks": {
+    "dynamic_format_cases": 130,
+    "original_fragment_provenance_cases": 216,
+    "complete_event_expression_cases": 5,
+    "canonical_identifiers_and_non_string_instructions": "verified unchanged by migration generator",
+    "authored_game_translations": false
+  }
+}

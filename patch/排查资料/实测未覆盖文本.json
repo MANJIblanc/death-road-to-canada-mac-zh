@@ -1,0 +1,17 @@
+[
+  "Craftsman",
+  "Hyperfixated",
+  "CRAFTY",
+  "Steel Chains",
+  "With each pierce, rifles lose 18% power and knockback. This is a multiplicative penalty, applied for each pierce.",
+  {
+    "page": "继续游戏存档选择",
+    "text": "%s with %d others, DAY %d",
+    "reason": "原 Windows 菜单词库没有该原生存档标题格式；保留原文，不添加译文"
+  },
+  {
+    "page": "天赋名称与源码对应检查",
+    "text": "Ranger",
+    "reason": "原 Windows 补丁没有对应原生词条；已移除错套的偏执译名"
+  }
+]

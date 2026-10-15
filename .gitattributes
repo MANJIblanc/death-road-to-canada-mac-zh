@@ -1,0 +1,3 @@
+# The reviewed payload includes byte-exact hashes. Preserve its bytes on checkout.
+patch/** -text
+README.md text eol=lf
